@@ -24,11 +24,10 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'rails-controller-testing', '~> 1.0', '>= 1.0.2'
   spec.add_development_dependency 'rake', '~> 12.3', '>= 12.3.1'
   spec.add_development_dependency 'rspec-rails', '~> 3.8'
-  spec.add_development_dependency 'rubocop', '~> 0.64.0'
+  spec.add_development_dependency 'rubocop', '~> 0.61.1'
   spec.add_development_dependency 'sass-rails', '~> 5.0', '>= 5.0.7'
   spec.add_development_dependency 'simplecov-console', '~> 0.4.2'
 
-  spec.add_runtime_dependency 'bourbon', '4.2.7'
-  spec.add_runtime_dependency 'neat', '1.8'
   spec.add_runtime_dependency 'rails-assets-normalize-css', '3.0.3'
+  spec.add_runtime_dependency 'autoprefixer-rails', '~> 9.5'
 end
